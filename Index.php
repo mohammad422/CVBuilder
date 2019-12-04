@@ -9,4 +9,3 @@ if (isset($_SESSION["user_id"])){
 require_once "Views/Index.view.php";
 //first
 //second
-//third
