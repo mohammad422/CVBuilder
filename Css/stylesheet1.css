@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(39, 63, 65);
+}
+span {
+    color: red;
+}
+hr{
+    border-color: black;
+    width: 100%;
+}
+#form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(218, 238, 240);
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-content: center;
+}
+input, select{
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px;
+}
+input[type=submit]{
+    border-radius: 5px;
+    width: 80%;
+    padding: 8px;
+}
+textarea{
+    width:  80%;
+    height: 100px;
+}
+label{
+    font-size: large;
+}
+@media only screen and (max-width: 800px) {
+    /* For desktop: */
+    #form {width: 70%;}
+
+}
+@media only screen and (max-width: 500px) {
+    /* For desktop: */
+    #form {width: 100%;}
+
+}

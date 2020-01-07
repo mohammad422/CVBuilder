@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 63, 65);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:first-child {
+    margin-left: 10%;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: rgb(218, 238, 240);
+
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    border:hidden;
+}
+
+.row1_1 {
+    width: 35%;
+    margin-left: 10%;
+
+}
+.row2_1 {
+    width: 28%;
+    margin-left: 4%;
+
+}
+.row3 {
+    width: 60%;
+    margin-left: 20%;
+}
+.row1_1, .row2_1, .row3 {
+    padding: 2%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: rgb(245,250,255);
+}
+.row0_1{
+    background-color: rgb(245,250,255);
+}
+.row0_1{
+    width: 42.5%;
+    margin-left: 5%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=text], select {
+    border-radius: 5px;
+    width: 78%;
+    padding: 7px;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    width: 20%;
+    padding: 7px;
+}
+
+p {
+    /* font-size: large;*/
+}
+
+@media only screen and (max-width: 800px) {
+    /* For desktop: */
+    .row1 {
+        flex-direction: column;
+    }
+
+    .row1_1 {
+        width: 80%;
+
+    }
+    .row0_1{
+        width: 90%;
+    }
+    .row2_1 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
